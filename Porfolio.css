@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: linear-gradient(to right, #a0d8e1, #eaf5f6);
+}
+
+header {
+    background: #85c1e9;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+    font-weight: bold;
+    color: white;
+}
+
+.profile-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+.photo-frame {
+    border: 5px solid #3a3a3a;
+    border-radius: 10px;
+    padding: 10px;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.photo-frame img {
+    max-width: 150px;
+    border-radius: 8px;
+}
+
+.info {
+    margin-left: 20px; 
+    color: #333;
+}
+
+.info h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.info h2 {
+    font-size: 20px;
+    margin: 5px 0;
+}
+
+.info p {
+    font-size: 16px;
+    font-style: italic;
+}
+
+.container-skills {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    text-align: center; /* Center text */
+    margin: 20px 0; /* Add some margin for spacing */
+}
+
+.title {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px; /* Add margin below the title */
+}
+
+.browser {
+    background: white;
+    border: 2px solid #0077cc;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 100%; /* Make it responsive */
+    max-width: 600px; /* Set a max width for larger screens */
+}
+
+.url {
+    background: #e6f7ff;
+    padding: 5px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.content ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.content li {
+    margin: 5px 0;
+}
+
+.container-edbg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.education-section {
+    background: #FFFFFF;
+    border: 2px solid #C0C0C0;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 300px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.education-section h2 {
+    text-align: center;
+    color: #2C3E50;
+}
+
+.contact-section {
+    text-align: center;
+}
+
+.contact-section h2 {
+    color: #2C3E50;
+}
+
+.contact-section p {
+    margin: 5px 0;
+}
